@@ -1,15 +1,21 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+# VHDL Basics
 
-entity and_gate is
-    Port (
-        A : in STD_LOGIC;
-        B : in STD_LOGIC;
-        Y : out STD_LOGIC
-    );
-end and_gate;
+This repository contains basic VHDL programs created as part of my FPGA learning journey.
 
-architecture Behavioral of and_gate is
-begin
-    Y <= A and B;
-end Behavioral;
+## Project 1: AND Gate
+This project implements a simple AND gate using VHDL.
+
+### Inputs
+- A
+- B
+
+### Output
+- Y = A AND B
+
+### Tools Used
+- Xilinx Vivado
+- VHDL
+
+### Author
+Mou Mog  
+ECE Student, NIT Agartala
